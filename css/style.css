@@ -1,0 +1,215 @@
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Noto Sans TC', sans-serif;   
+    
+}
+p,a,input,textarea.span,ul,li
+{
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+.btn
+{
+    background: red;
+    color:white;
+    padding: 9px 26px;
+    border-radius: 20px;
+}
+h3
+{
+    font-size: 36px;
+    line-height: 1.5;
+}
+p
+{
+    color: #707070;
+}
+P.lead
+{
+    color: black;
+}
+#intro .jumpbotron
+{
+    height: 100vh;
+    background-size:cover;
+    background-position:center top;
+}
+#intro h1
+{
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#intro .container
+{
+    position: relative;
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.navbar-brand img
+{
+    width: 150px;
+    height: 80px;
+}
+header li
+{
+    padding: 0 80px;
+}
+#second
+{
+    padding: 80px 0px;
+}
+#second h3
+{
+    margin-bottom: 80px;
+}
+#second img
+{
+    width: 140px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+#latest
+{
+    padding: 80px 0px;
+    background: rgb(248,248,248);
+}
+#latest h3
+{
+    margin-bottom: 80px;
+}
+#latest .upper
+{
+    position: relative;
+}
+#latest .innertext
+{
+    position:absolute;
+    bottom:24px;
+    left:24px;
+}
+#latest .innertext span
+{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.outer img
+{
+    max-width: 100%;
+}
+#innertext .innertext h4
+{
+    font-size: 22px;
+    margin-top: 18px ;
+}
+.outer .lower h4
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.outer .lower i
+{
+    margin-right: 6px;
+}
+#latest .outer
+{
+    background: white;
+    width:50vh;
+    box-shadow: 0 0 4px 0 black;
+}
+#latest .lower
+{
+    padding: 6px 20px 20px 20px;
+}
+#latest .outer a
+{
+    color:black;
+    text-decoration: none;
+}
+#latest .outer a:hover
+{
+    text-decoration: none;
+}
+#email
+{
+    padding: 94px 0px;
+}
+#email h3
+{
+    margin-bottom: 80px;
+}
+#email .input-group
+{
+    margin-bottom: 20px;
+}
+footer
+{
+    border-top: solid 1px #c9c9c9;
+    padding: 80px 0px;
+}
+footer img
+{
+    width: 170px;
+    margin-bottom: 26px;
+}
+footer h4
+{
+    margin-bottom: 26px;
+}
+footer a
+{
+    color:#5e5cf0;
+}
+footer ul
+{
+    list-style:none;
+    padding: 0px;
+    float:left;
+    margin-right: 50px;
+}
+footer ul li
+{
+    margin-bottom: 10px;
+}
+footer ul li a
+{
+    color: #c9c9c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer li a:hover
+{
+    color: royalblue;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #second h5
+    {
+        margin-bottom: 63px;
+    }
+    #latest .outer
+    {
+        margin-bottom: 54px;
+    }
+    #latest .outer img
+    {
+        width:100vh
+    }
+    #latest .container .row .outer
+    {
+        margin-left: 65px;
+    }
+    #id .container .row
+    {
+        margin-bottom: -64px;
+    }
+    footer h4
+    {
+        margin-top: 31px;
+        margin-bottom: 30px;
+    }
+}
